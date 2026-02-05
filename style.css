@@ -56,6 +56,44 @@ h1, h2, h3, .logo-text {
 }
 #navbar ul li a:hover { color: var(--gold); }
 
+/* --- Logo & Branding --- */
+.logo-flex {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-logo {
+    height: 45px; /* Professional size for headers */
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    letter-spacing: -0.5px;
+}
+
+.logo-slogan {
+    font-size: 0.65rem;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Ensure the navbar stays slim */
+#navbar {
+    height: 80px;
+}
+
 /* --- Search Bar --- */
 .search-container {
     max-width: 600px;
@@ -279,4 +317,5 @@ h1, h2, h3, .logo-text {
 
 @keyframes fadeIn {
     to { opacity: 1; transform: translateY(0); }
+
 }
