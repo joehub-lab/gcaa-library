@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GCAA Library | Professional Landing Page</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 <div class="search-container">
@@ -13,18 +14,22 @@
 <body>
 
     <nav id="navbar">
-        <div class="logo-area">
-            <span class="logo-text">GCAA LIBRARY</span>
-            <span class="logo-slogan">Safety and Security - our priority</span>
+    <div class="logo-area" onclick="scrollToSection('hero')">
+        <div class="logo-flex">
+            <img src="logo.jpg" alt="GCAA Logo" class="nav-logo">
+            <div class="logo-text-wrapper">
+                <span class="logo-text">GCAA Library</span>
+                <span class="logo-slogan">Safety & Security - Our Priority</span>
+            </div>
         </div>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#mission">Mission</a></li>
-            <li><a href="#collections">Collections</a></li>
-            <li><a href="#team">Team</a></li>
-        </ul>
-    </nav>
+    </div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#footer">Contact</a></li>
+    </ul>
+</nav>
 
     <section id="hero" class="hero">
         <div class="hero-overlay">
@@ -441,4 +446,5 @@
 </body>
 
 </html>
+
 
