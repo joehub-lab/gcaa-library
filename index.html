@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCAA Library | Professional Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<div class="search-container">
+    <input type="text" id="librarySearch" placeholder="Search resources..." onkeyup="filterLibrary()">
+</div>
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo-area">
+            <span class="logo-text">GCAA LIBRARY</span>
+            <span class="logo-slogan">Safety and Security - our priority</span>
+        </div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to GCAA Library</h1>
+            <p class="hero-sub">Elevating Aviation Knowledge through Research and Excellence</p>
+            <button class="btn-gold" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+<section id="about" class="section about-section">
+    <div class="container about-grid">
+        <div class="about-content">
+            <h2>About the Library</h2>
+            <p>
+                The GCAA Library stands as a beacon of aviation excellence, 
+                bridging the gap between traditional research and modern digital 
+                innovation. We curate an extensive collection of ICAO standards, 
+                technical manuals, and academic journals designed to propel the 
+                next generation of aviation professionals.
+            </p>
+            <button class="btn-gold" onclick="scrollToSection('collections')">Explore Collections</button>
+        </div>
+        
+        <div class="about-img-wrapper">
+            <img src="library.jpeg" alt="GCAA Library Interior">
+        </div>
+    </div>
+</section>
+
+    <section id="mission" class="section">
+        <div class="container grid-3">
+            <div class="card">
+                <div class="icon">✈️</div>
+                <h3>Mission</h3>
+                <p>We Regulate Civil Aviation and Provide Safe and Secure Air Navigation Services in a Professional and Environmentally Responsible Manner.</p>
+            </div>
+            <div class="card highlight">
+                <div class="icon">👁️</div>
+                <h3>Vision</h3>
+                <p>To become a world-class Aviation Regulator and Air Navigation Services Provider.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🛡️</div>
+                <h3>Slogan</h3>
+                <p>Safety and Security - our priority</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section values-section">
+        <h2>Corporate Values</h2>
+        <div class="values-flex">
+            <div class="val">Leadership</div> <div class="val">Integrity</div>
+            <div class="val">Partnership</div> <div class="val">Inclusion</div>
+            <div class="val">Excellence</div> <div class="val">Innovation</div>
+            <div class="val">Diversity</div>
+        </div>
+    </section>
+
+     <section id="team" class="section">
+    <h2 class="center-title">Meet Our Team</h2>
+    <div class="team-flex">
+        
+        <div class="member-card">
+            <div class="member-frame">
+                <img src="1.png" alt="Library" style="width: 150px; height: auto;">
+            </div>
+            <h4>Patience Erskine Arthur</h4>
+            <p class="role">Manager, Technical <br> Publication & Library</p>
+            <b><span class="phone">0244271769</span></b>
+        </div>
+
+        <div class="member-card">
+            <div class="member-frame">
+                <img src="2.png" alt="Library" style="width: 150px; height: auto;">
+            </div>
+            <h4>Gladys Koomson</h4>
+            <p class="role">Library Assistant</p>
+            <b><span class="phone">0266568600</span></b>
+        </div>
+
+        <div class="member-card">
+            <div class="member-frame">
+                <img src="5.png" alt="Library" style="width: 150px; height: auto;">
+            </div>
+            <h4>Lawrencia Dan-Yare</h4>
+            <p class="role">Library Assistant</p>
+            <b><span class="phone">0547900993</span></b>
+        </div>
+
+        <div class="member-card">
+            <div class="member-frame">
+                <img src="3.png" alt="Library" style="width: 150px; height: auto;">
+            </div>
+            <h4>Nicholina Efua.A. Obbih</h4>
+            <p class="role">Library Staff</p>
+            <b><span class="phone">0249035519</span></b>
+        </div>
+
+        <div class="member-card">
+            <div class="member-frame">
+                <img src="4.png" alt="Library" style="width: 150px; height: auto;">
+            </div>
+            <h4>Christina Darko</h4>
+            <p class="role">Library Assistant</p>
+            <b><span class="phone">050106530</span></b>
+        </div>
+
+    </div>
+</section>
+
+
+    <section id="collections" class="section">
+        <h2 class="center-title">Library Collections</h2>
+        <p>Explore our comprehensive collection of aviation resources, academic materials, and industry publications.</p>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="folder.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Annex</h4>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="document.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Documents</h4>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="bookmark.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Circulars</h4>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="book.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Novels</h4>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="graduation.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Academic Documents</h4>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="image.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Print Media</h4>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="magazine.svg" alt="Library Icon" class="svg-style" style="width: 30px; height: auto;"></div>
+                <h4>Magazines</h4>
+            </div>
+            </div>
+    </section>
+
+    <section id="collections" class="section">
+        <h2 class="center-title">ICAO Annexes</h2>
+        <p>The International Civil Aviation Organization (ICAO) Annexes are the founadation of international aviation standards and recommended practices.</p>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="one.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 1: Personnel Licensing</h4>
+                <p>Personnel licensing is the process by which authorized bodies approve individuals to perform specific roles, particularly in high-risk areas, by confirming they are qualified, skilled, and medically fit. This ensures that critical tasks are handled safely and reliably by competent professionals.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="two.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 2: Rules of the Air</h4>
+                <p>Global standards for safe flight operations, covering procedures and collision avoidance.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="three.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 3: Meteorological Service for International Air Navigation</h4>
+                <p>Meteorological Service provides essential weather data for safe and efficient international air navigation, aiding decision-making and air traffic management.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="four.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 4: Aeronautical Charts & Amendments</h4>
+                <p>Provide pilots with essential navigation information for flight planning and execution, available in various scales, including digital formats.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="five.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 5: Units of Measurement & Amendments</h4>
+                <p>Aviation uses standardized measurement units (SI and aviation-specific) for clear communication and safe operations.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="six.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 6: Operation of Aircrafts & Amendments</h4>
+                <p>Aircraft flight relies on aerodynamics, propulsion, and control systems, with support systems for safe and efficient operation.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="7.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 7: Aircraft Nationality & Amendments</h4>
+                <p>Aircraft are uniquely identified by nationality and registration marks, indicating their State of Registry using ITU-assigned prefixes.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="eight.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 8: Air Worthiness of Aircraft & Amendments</h4>
+                <p>Airworthiness ensures an aircraft meets safety standards.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="9.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 9: Facilitation & Amendments</h4>
+                <p>Facilitation improves communication and decision-making to achieve shared goals.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="10.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 10: Aeronautical telecommunications & Amendments</h4>
+                <p>Aeronautical telecommunications link aircraft, ground stations, and satellites for safe air traffic management.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="11.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 11: Air Traffic Services & Amendments</h4>
+                <p>Air Traffic Services ensure safe and orderly aircraft movement and emergency response.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="12.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 12: Search and Rescue & Amendments</h4>
+                <p>Search and Rescue coordinates efforts to locate and assist people in distress.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="13.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 13: Aircraft Accident and Incident Investigation & Amendments</h4>
+                <p>The process analyzes accident causes to improve safety.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="14.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 14: Aerodromes & Amendments</h4>
+                <p>An aerodrome is a designated area for safe and efficient aircraft operations.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="15.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 15: Aeronautical Information Services & Amendments</h4>
+                <p>These services provide aeronautical information to enhance the safety and efficiency of air navigation.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="16.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 16: Environmental Protection & Amendments</h4>
+                <p>Environmental protection focuses on conserving resources and addressing climate change.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="17.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 17: Security & Amendments</h4>
+                <p>Air security protects civil aviation from unlawful acts.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="18.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 18: The Transport of Dangerous Goods by Air & Amendments</h4>
+                <p>Dangerous goods transport is controlled by strict regulations.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="19.jpeg" alt="Library" style="width: 75px; height: auto;"></div>
+                <h4>Annex 19: Safety Management & Amendments</h4>
+                <p>A Safety Management System integrates risk management for safe aviation operations.</p>
+            </div>
+            </div>
+    </section>
+    
+    <section id="collections" class="section">
+        <h2 class="center-title">Documents</h2>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="UN.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Document 9613</h4>
+                <p>Abstract: The ICAO PBN MANUAL (2013) explains the use of RNAV and RNP navigation based on performance standards to enhance safety, efficiency, airspace capacity, airport accessibility.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="CINQ.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Document 9774</h4>
+                <p>Abstract: The manual describes the framework and processes for certifying aerodromes to ensure they operate safely and comply with ICAO standards.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="TROIS.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Document 9760</h4>
+                <p>Abstract: The ICAO Airworthiness manual, volume ıı(2001) explains design certification and continuing airworthiness to ensure aircraft safety throughout their service life.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="QUATRE.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Document 9587</h4>
+                <p>Abstract: The ICAO economic regulation guidance (2017) provides policy principles for overseeing international air transport,focusing on fair competition protection, sustainable industry growth.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="DEUX.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Document 9602</h4>
+                <p>Abstract: The ICAO Assembly Resolutions in Force (1992) outline agreed policies and decisions directing global cooperation,safety, and orderly development of international civil aviation.</p>
+            </div>
+    </section>
+    
+    <section id="collections" class="section">
+        <h2 class="center-title">Circulars</h2>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="huit.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 317</h4>
+                <p>Abstract: The study shows that noise-abatement departure procedures can reduce aircraft noise but may shift emissions or noise to other areas, requiring careful selection based on local conditions.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="six (2).jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 294</h4>
+                <p>Abstract: The ADREP Annual Statistics 2001 report summarizes global aircraft accident and incident data collected by ICAO, highlighting safety trends by flight phase and aircraft type to support aviation safety improvements.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="sept.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 287</h4>
+                <p>Abstract: The report reviews major global developments, trends, and challenges in civil aviation in the year 2000, providing insights into international air transport and industry performance.</p>
+            </div>
+    </section>
+
+    <section id="collections" class="section">
+        <h2 class="center-title">Novels</h2>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="n1.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <p>The spread of religion has not stopped moral decline because true repentance and righteous living are lacking, and genuine greatness lies in humility, love, and obedience to God.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="n2.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <p>Rainy Lake is a coming-of-age novel that follows a young woman’s memories of childhood summers by the lake, where personal growth and first love unfold alongside the social and political changes of the 1960s.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="n3.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <p>The Marriage in the Trees is a poetry collection that explores memory, nature, love, and loss, showing how time and personal history shape human experience.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="n4.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <p>Piercing the Darkness is a novel about a hidden spiritual battle where faith and prayer confront powerful evil forces influencing human lives.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="n5.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <p>Presumed Dead is a crime novel about a detective unraveling a mysterious case of disappearance and deception, where hidden secrets lead to unexpected truths.</p>
+            </div>
+    </section>
+
+    <section id="collections" class="section">
+        <h2 class="center-title">Print Media</h2>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="gr1.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="gr2.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="gr3.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="gr4.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+            </div>
+            <p>Summary: Air Tanzania has launched a direct flight between Dar es Salaam and Accra to improve regional connectivity and promote trade, tourism, and cooperation between Tanzania and Ghana.Footer-style section titled “Academic Document ”below it will be a list of all the academic documents. </p>
+    </section>
+
+    <section id="collections" class="section">
+        <h2 class="center-title">Magazines</h2>
+        <br><div class="annex-grid">
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="m1.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 317</h4>
+                <p>Abstract 1: The cover depicts a world overwhelmed by political turmoil, conflict, and deepening global instability.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="m2.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 294</h4>
+                <p>Abstract 2: The issue explores the key trends of 2024, focusing on global politics, economic pressures, climate risks, and the growing impact of artificial intelligence on the world.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="m3.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 287</h4>
+                <p>Abstract 3: The cover portrays a leader in trouble, highlighting political risk, growing pressure, and uncertain consequences ahead.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="m4.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 287</h4>
+                <p>Abstract 4: The cover highlights Nicola Coughlan as a leading voice of a new generation, symbolizing fresh talent and positive change in culture and media.</p>
+            </div>
+            <div class="annex-card">
+                <div class="annex-thumb"><img src="m5.jpeg" alt="Library Icon" class="svg-style" style="width: 75px; height: auto;"></div>
+                <h4>Circular 287</h4>
+                <p>Abstract: The cover highlights Nicola Coughlan as a leading voice of a new generation, symbolizing fresh talent and positive change in culture and media.</p>
+            </div>
+    </section>
+    
+
+    <section class="section academic-bg">
+        <h2>Academic Documents</h2>
+        <div class="academic-list-grid">
+            <ul><li>Finance</li><li>Psychology</li><li>ICT</li><li>Religion</li><li>Politics</li><li>Economics</li><li>Law</li><li>Communication</li><li>Sociology</li><li>Info Tech</li></ul>
+            <ul><li>Health care</li><li>Engineering</li><li>Dictionary</li><li>Medicals</li><li>Criminology</li><li>Aviation</li><li>Maths & stats</li><li>Meteorology</li><li>Healthy living</li><li>Science</li></ul>
+            </div>
+    </section>
+
+    <footer id="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>GCAA Library</h3>
+            <p>Providing world-class aviation resources to support the safety and security of civil aviation through research and excellence.</p>
+            <div class="rules-box-mini">
+                <span>🚫 No Eating</span> | <span>🤫 No Noise</span> | <span>🚫 No Phones</span>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#team">Our Team</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>📍 GCAA Headquarters, Accra</p>
+            <p>📞 +233 (0) 24 427 1769</p>
+            <p>📧 library@gcaa.com.gh</p>
+            <div class="social-icons">
+                <span>🌐</span> <span>📘</span> <span>🐦</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 GCAA Library. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
